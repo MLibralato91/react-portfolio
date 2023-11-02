@@ -25,7 +25,7 @@ const Home = () => {
     '.',
   ]
 
-  const example = async () => {
+  const example = () => {
     setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 4000)
