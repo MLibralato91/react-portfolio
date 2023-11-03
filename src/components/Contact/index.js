@@ -1,10 +1,12 @@
 import './index.scss'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import Loader from 'react-loaders'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
+  const refForm = useRef()
 
   const example = () => {
     setTimeout(() => {
@@ -14,7 +16,25 @@ const Contact = () => {
   useEffect(() => {
     example()
   })
-
+  const sendEmail = (e) => {
+    e.preventDefault()
+    emailjs
+      .sendForm(
+        'gmail',
+        'template_2crx6yp',
+        refForm.current,
+        'sQZi3734JthlJN9iJ'
+      )
+      .then(
+        () => {
+          alert('Message successfully sent!')
+          window.location.reload(false)
+        },
+        () => {
+          alert('Failed to send the message, please try again')
+        }
+      )
+  }
   return (
     <>
       <div className="container contact-page">
@@ -32,32 +52,39 @@ const Contact = () => {
             dolor eveniet, consequatur dolore accusamus quos. Quos?
           </p>
           <div className="contact-form">
-            <ul>
-              <li className="half">
-                <input type="text" name="name" placeholder="Name" required />
-              </li>
-              <li className="half">
-                <input type="email" name="email" placeholder="Email" required />
-              </li>
-              <li>
-                <input
-                  type="text"
-                  name="subject"
-                  placeholder="Subject"
-                  required
-                />
-              </li>
-              <li>
-                <textarea
-                  name="message"
-                  placeholder="Message"
-                  required
-                ></textarea>
-              </li>
-              <li>
-                <input type="submit" className="flat-button" value="SEND" />
-              </li>
-            </ul>
+            <form ref={refForm} onSubmit={sendEmail}>
+              <ul>
+                <li className="half">
+                  <input type="text" name="name" placeholder="Name" required />
+                </li>
+                <li className="half">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  />
+                </li>
+                <li>
+                  <input
+                    type="text"
+                    name="subject"
+                    placeholder="Subject"
+                    required
+                  />
+                </li>
+                <li>
+                  <textarea
+                    name="message"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                </li>
+                <li>
+                  <input type="submit" className="flat-button" value="Send" />
+                </li>
+              </ul>
+            </form>
           </div>
         </div>
       </div>
