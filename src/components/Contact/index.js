@@ -6,7 +6,7 @@ import emailjs from '@emailjs/browser'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const refForm = useRef()
+  const form = useRef()
 
   const example = () => {
     setTimeout(() => {
@@ -18,12 +18,13 @@ const Contact = () => {
   })
   const sendEmail = (e) => {
     e.preventDefault()
+
     emailjs
       .sendForm(
-        'gmail',
-        'template_2crx6yp',
-        refForm.current,
-        'sQZi3734JthlJN9iJ'
+        'your_service_id',
+        'your_template_id',
+        form.current,
+        'your_public_key'
       )
       .then(
         () => {
@@ -52,7 +53,7 @@ const Contact = () => {
             dolor eveniet, consequatur dolore accusamus quos. Quos?
           </p>
           <div className="contact-form">
-            <form ref={refForm} onSubmit={sendEmail}>
+            <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
                   <input type="text" name="name" placeholder="Name" required />
