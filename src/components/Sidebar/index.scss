@@ -91,6 +91,12 @@
       }
     }
 
+    .projects-link {
+      &:after {
+        content: 'PROJECTS';
+      }
+    }
+
     .active {
       svg {
         color: $primary-color;
