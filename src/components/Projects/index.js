@@ -26,7 +26,7 @@ const Projects = () => {
               idx={15}
             />
           </h1>
-          <div className="projects-list">
+          {/* <div className="projects-list">
             <div className="single-project">
               <h2>
                 <a href="#">Progetto 1</a>
@@ -93,7 +93,7 @@ const Projects = () => {
                 Quos?
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <Loader type="pacman" />
