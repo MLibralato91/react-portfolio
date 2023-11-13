@@ -10,6 +10,9 @@
   bottom: auto;
   top: 35px;
 }
+.top-tag-body {
+  margin-left: 20px;
+}
 
 .tags {
   color: $primary-color;
@@ -19,6 +22,10 @@
   left: 120px;
   font-size: 18px;
   font-family: 'La Belle Aurore';
+}
+
+.top-tag-html {
+  margin-left: -20px;
 }
 
 .bottom-tag-html {
