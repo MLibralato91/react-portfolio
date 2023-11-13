@@ -92,6 +92,19 @@ const Projects = () => {
                 Quos?
               </p>
             </div>
+            <div className="single-project">
+              <p>
+                <h2>
+                  <a href="https://github.com/MLibralato91/vue-boolzapp">
+                    whatsapp web
+                  </a>
+                </h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                quos, non minus tenetur impedit perspiciatis reprehenderit?
+                Alias incidunt dolor eveniet, consequatur dolore accusamus quos.
+                Quos?
+              </p>
+            </div>
           </div>
         </div>
       </div>
