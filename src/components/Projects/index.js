@@ -26,12 +26,12 @@ const Projects = () => {
               idx={15}
             />
           </h1>
-          {/* <div className="projects-list">
+          <div className="projects-list">
             <div className="single-project">
-              <h2>
-                <a href="#">Progetto 1</a>
-              </h2>
               <p>
+                <h2>
+                  <a href="#">business web-site</a>
+                </h2>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
                 quos, non minus tenetur impedit perspiciatis reprehenderit?
                 Alias incidunt dolor eveniet, consequatur dolore accusamus quos.
@@ -39,10 +39,10 @@ const Projects = () => {
               </p>
             </div>
             <div className="single-project">
-              <h2>
-                <a href="#">Progetto 1</a>
-              </h2>
               <p>
+                <h2>
+                  <a href="#">dropbox</a>
+                </h2>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
                 quos, non minus tenetur impedit perspiciatis reprehenderit?
                 Alias incidunt dolor eveniet, consequatur dolore accusamus quos.
@@ -50,10 +50,10 @@ const Projects = () => {
               </p>
             </div>
             <div className="single-project">
-              <h2>
-                <a href="#">Progetto 1</a>
-              </h2>
               <p>
+                <h2>
+                  <a href="#">dc-comics</a>
+                </h2>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
                 quos, non minus tenetur impedit perspiciatis reprehenderit?
                 Alias incidunt dolor eveniet, consequatur dolore accusamus quos.
@@ -61,10 +61,10 @@ const Projects = () => {
               </p>
             </div>
             <div className="single-project">
-              <h2>
-                <a href="#">Progetto 1</a>
-              </h2>
               <p>
+                <h2>
+                  <a href="#">discord</a>
+                </h2>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
                 quos, non minus tenetur impedit perspiciatis reprehenderit?
                 Alias incidunt dolor eveniet, consequatur dolore accusamus quos.
@@ -72,28 +72,17 @@ const Projects = () => {
               </p>
             </div>
             <div className="single-project">
-              <h2>
-                <a href="#">Progetto 1</a>
-              </h2>
               <p>
+                <h2>
+                  <a href="#">spotify web</a>
+                </h2>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
                 quos, non minus tenetur impedit perspiciatis reprehenderit?
                 Alias incidunt dolor eveniet, consequatur dolore accusamus quos.
                 Quos?
               </p>
             </div>
-            <div className="single-project">
-              <h2>
-                <a href="#">Progetto 1</a>
-              </h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-                quos, non minus tenetur impedit perspiciatis reprehenderit?
-                Alias incidunt dolor eveniet, consequatur dolore accusamus quos.
-                Quos?
-              </p>
-            </div>
-          </div> */}
+          </div>
         </div>
       </div>
       <Loader type="pacman" />
