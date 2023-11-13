@@ -71,6 +71,28 @@ const Projects = () => {
                 Quos?
               </p>
             </div>
+            <div className="single-project">
+              <h2>
+                <a href="#">Progetto 1</a>
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                quos, non minus tenetur impedit perspiciatis reprehenderit?
+                Alias incidunt dolor eveniet, consequatur dolore accusamus quos.
+                Quos?
+              </p>
+            </div>
+            <div className="single-project">
+              <h2>
+                <a href="#">Progetto 1</a>
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                quos, non minus tenetur impedit perspiciatis reprehenderit?
+                Alias incidunt dolor eveniet, consequatur dolore accusamus quos.
+                Quos?
+              </p>
+            </div>
           </div>
         </div>
       </div>

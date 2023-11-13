@@ -1,6 +1,9 @@
 @import '../../assets/variables/variables.scss';
 
+html::-webkit-scrollbar {
+  width: 10px;
+}
 .projects-list {
   overflow: auto;
-  height: 300px;
+  height: 350px;
 }
