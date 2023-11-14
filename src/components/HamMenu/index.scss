@@ -1,0 +1,59 @@
+@import '../../assets/variables/variables.scss';
+
+.hamburger-nav-bar {
+  background: #181818;
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  nav {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 50px;
+
+    span {
+      font-size: 25px;
+      padding: 4px 10px;
+      border-radius: 20%;
+      border: 3px solid rgb(77, 77, 77);
+      background-color: #181818;
+      cursor: pointer;
+    }
+  }
+
+  .menu {
+    width: 60%;
+    height: 100vh;
+    background-color: $grey-color;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    z-index: -100;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .visibile {
+    display: inherit;
+  }
+  img {
+    width: 40px;
+    height: auto;
+    padding: 10px;
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 678px) {
+  .hamburger-nav-bar {
+    display: none;
+  }
+}
