@@ -19,7 +19,7 @@
   opacity: 0.6;
   position: absolute;
   bottom: 0;
-  left: 120px;
+  left: 30px;
   font-size: 18px;
   font-family: 'La Belle Aurore';
 }
@@ -33,13 +33,16 @@
 }
 
 .container {
-  width: 100%;
+  width: 90%;
   will-change: contents;
   height: 90%;
   min-height: 566px;
   position: absolute;
   opacity: 0;
   top: 5%;
+  right: 0;
+  left: 0;
+  bottom: 0;
   margin: 0 auto;
   z-index: 1;
   transform-style: preserve-3d;
@@ -52,7 +55,6 @@
 .projects-page {
   .text-zone {
     position: absolute;
-    left: 10%;
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
@@ -97,7 +99,6 @@
       font-family: 'Coolvetica';
       margin-bottom: 0;
       margin-top: 0;
-
       a {
         color: $primary-color;
       }
@@ -140,11 +141,20 @@
 }
 
 @media (min-width: 678px) {
+  .container {
+    width: 90%;
+  }
+
+  .tags {
+    left: 85px;
+  }
+
   .about-page,
   .contact-page,
   .projects-page {
     .text-zone {
-      width: 88%;
+      width: 89%;
+      left: 10%;
     }
   }
 }
