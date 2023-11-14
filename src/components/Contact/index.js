@@ -55,11 +55,11 @@ const Contact = () => {
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
-              <ul>
-                <li className="half">
+              <ul className="contact-form__top">
+                <li>
                   <input type="text" name="name" placeholder="Name" required />
                 </li>
-                <li className="half">
+                <li>
                   <input
                     type="email"
                     name="email"
@@ -67,6 +67,8 @@ const Contact = () => {
                     required
                   />
                 </li>
+              </ul>
+              <ul>
                 <li>
                   <input
                     type="text"
@@ -96,18 +98,6 @@ const Contact = () => {
           <br />
           Latina LT, 04100 <br />
           <span>michele.libralato.ml@gmail.com</span>
-        </div>
-        <div className="map-wrap">
-          <MapContainer
-            center={[44.96366, 19.61045]}
-            zoom={13}
-            scrollWheelZoom={false}
-          >
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :</Popup>
-            </Marker>
-          </MapContainer>
         </div>
       </div>
       <Loader type="pacman" />

@@ -4,6 +4,11 @@
   width: 100%;
   margin-top: 20px;
 
+  .contact-form__top {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
   ul {
     padding: 0;
     margin: 0;
@@ -13,25 +18,10 @@
       margin: 0;
       list-style: none;
       margin-bottom: 10px;
-      margin-bottom: none;
       overflow: hidden;
-      display: block;
-      position: relative;
       opacity: 0;
       animation: fadeInUp 2s 2s;
       animation-fill-mode: forwards;
-      clear: both;
-    }
-
-    li.half {
-      width: 49%;
-      margin-left: 2%;
-      float: left;
-      clear: none;
-
-      &:first-child {
-        margin-left: 0;
-      }
     }
   }
 
@@ -99,12 +89,4 @@
     padding-top: 20px;
     color: $primary-color;
   }
-}
-
-.map-wrap {
-  background: rgba(8, 253, 216, 0.1);
-  float: right;
-  width: 53%;
-  height: 115%;
-  margin-top: -3%;
 }
