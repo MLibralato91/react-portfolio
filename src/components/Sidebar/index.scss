@@ -1,6 +1,7 @@
 @import '../../assets/variables/variables.scss';
 
 .nav-bar {
+  display: none;
   background: #181818;
   width: 60px;
   height: 100%;
@@ -125,5 +126,11 @@
         }
       }
     }
+  }
+}
+
+@media (min-width: 678px) {
+  .nav-bar {
+    display: block;
   }
 }
