@@ -9,6 +9,7 @@
 .top-tags {
   bottom: auto;
   top: 35px;
+  display: none;
 }
 .top-tag-body {
   margin-left: 20px;
@@ -22,6 +23,7 @@
   left: 30px;
   font-size: 18px;
   font-family: 'La Belle Aurore';
+  display: none;
 }
 
 .top-tag-html {
@@ -147,8 +149,11 @@
 
   .tags {
     left: 85px;
+    display: block;
   }
-
+  .top-tags {
+    display: block;
+  }
   .about-page,
   .contact-page,
   .projects-page {
