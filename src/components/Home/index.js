@@ -9,12 +9,8 @@ import Loader from 'react-loaders'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['i', 'c', 'h', 'e', 'l', 'e', ' ', 'a', 'n', 'd']
+  const imArray = ["I'", 'm', ' ', 'a', ' ']
   const jobArray = [
-    "I'",
-    'm',
-    ' ',
-    'a',
-    ' ',
     'w',
     'e',
     'b',
@@ -63,11 +59,18 @@ const Home = () => {
               idx={15}
             />
             <br />
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={jobArray}
-              idx={17}
-            />
+            <div className="myRole">
+              <AnimatedLetters
+                letterClass={letterClass}
+                strArray={imArray}
+                idx={15}
+              />
+              <AnimatedLetters
+                letterClass={letterClass}
+                strArray={jobArray}
+                idx={17}
+              />
+            </div>
           </h1>
           <h2>Jr Full Stack Developer</h2>
           <Link to="/contact" className="flat-button">

@@ -77,12 +77,22 @@
       color: #333;
     }
   }
+
+  .myRole {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 992px) {
   .home-page {
     .text-zone {
       width: 50%;
+    }
+
+    .myRole {
+      display: flex;
+      flex-direction: row;
     }
   }
 }
