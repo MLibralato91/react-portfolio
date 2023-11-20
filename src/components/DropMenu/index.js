@@ -6,7 +6,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { useState } from 'react'
 
-const HamMenu = () => {
+const DropMenu = () => {
   const [menu_class, setMenuClass] = useState('menu hidden')
   const [isMenuClicked, setIsMenuClicked] = useState(false)
 
@@ -18,6 +18,11 @@ const HamMenu = () => {
     }
 
     setIsMenuClicked(!isMenuClicked)
+  }
+
+  const closeMenu = () => {
+    setMenuClass('menu hidden')
+    setIsMenuClicked(false)
   }
 
   return (
@@ -33,22 +38,42 @@ const HamMenu = () => {
       <div className={menu_class}>
         <ul>
           <li>
-            <NavLink exact="true" activeclassname="active" to="/">
+            <NavLink
+              exact="true"
+              activeclassname="active"
+              to="/"
+              onClick={closeMenu}
+            >
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink exact="true" activeclassname="active" to="/about">
+            <NavLink
+              exact="true"
+              activeclassname="active"
+              to="/about"
+              onClick={closeMenu}
+            >
               About
             </NavLink>
           </li>
           <li>
-            <NavLink exact="true" activeclassname="active" to="/contact">
+            <NavLink
+              exact="true"
+              activeclassname="active"
+              to="/contact"
+              onClick={closeMenu}
+            >
               Contact
             </NavLink>
           </li>
           <li>
-            <NavLink exact="true" activeclassname="active" to="/projects">
+            <NavLink
+              exact="true"
+              activeclassname="active"
+              to="/projects"
+              onClick={closeMenu}
+            >
               Projects
             </NavLink>
           </li>
@@ -60,6 +85,7 @@ const HamMenu = () => {
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.linkedin.com/in/michele-libralato-7ab470115/"
+                onClick={closeMenu}
               >
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
@@ -69,6 +95,7 @@ const HamMenu = () => {
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/MLibralato91"
+                onClick={closeMenu}
               >
                 <FontAwesomeIcon icon={faGithub} />
               </a>
@@ -79,4 +106,4 @@ const HamMenu = () => {
     </div>
   )
 }
-export default HamMenu
+export default DropMenu

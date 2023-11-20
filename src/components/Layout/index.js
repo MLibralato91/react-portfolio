@@ -1,12 +1,12 @@
 import { Outlet } from 'react-router-dom'
 import Sidebar from '../Sidebar'
 import './index.scss'
-import HamMenu from '../HamMenu'
+import DropMenu from '../DropMenu'
 
 const Layout = () => {
   return (
     <div className="App">
-      <HamMenu />
+      <DropMenu />
       <Sidebar />
       <div className="page">
         <span className="tags top-tags top-tag-html">
