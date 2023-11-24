@@ -37,19 +37,20 @@ const About = () => {
           </h1>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quos,
-            non minus tenetur impedit perspiciatis reprehenderit? Alias incidunt
-            dolor eveniet, consequatur dolore accusamus quos. Quos?
+            Sono un ragazzo appassionato di informatica che ha intrapreso un
+            percorso per diventare sviluppatore web
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quos,
-            non minus tenetur impedit perspiciatis reprehenderit? Alias incidunt
-            dolor eveniet, consequatur dolore accusamus quos. Quos?
+            Ho imparato linguaggi di programmazione sia lato front-end che lato
+            back-end. Ho studiato Js e VueJs mentre lato BE ho studiato PHP con
+            Laravel. Per sperimentare qualcosa di nuovo ho creato questo
+            portfolio utilizzando React.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quos,
-            non minus tenetur impedit perspiciatis reprehenderit? Alias incidunt
-            dolor eveniet, consequatur dolore accusamus quos. Quos?
+            Mi piace viaggiare e mi piace passare il tempo libero in mezzo alla
+            natura. Mi piace ogni tipo di sport e quando posso lo pratico. Mi
+            ritengo abile in cucina e mi appassiona tutto ciò che può arricchire
+            le mie conoscenze, pratiche e mentali.
           </p>
         </div>
 

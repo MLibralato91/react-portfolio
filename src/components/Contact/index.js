@@ -48,9 +48,10 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quos,
-            non minus tenetur impedit perspiciatis reprehenderit? Alias incidunt
-            dolor eveniet, consequatur dolore accusamus quos. Quos?
+            Mi piace mettermi in gioco e imparare cose nuove, continuamente.
+            Sono sempre alla ricerca di nuove esperienze e persone. Se le mie
+            capacità e la mia personalità compaciano con ciò che cercate potete
+            contattarmi senza problemi.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>

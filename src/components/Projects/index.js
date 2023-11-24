@@ -30,20 +30,21 @@ const Projects = () => {
             <div className="single-project">
               <p>
                 <h2>
-                  <a href="https://github.com/MLibralato91/proj-html-vuejs">
+                  <a href="https://business-site-vuejs.netlify.app">
                     business web-site
                   </a>
                 </h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-                quos, non minus tenetur impedit perspiciatis reprehenderit?
-                Alias incidunt dolor eveniet, consequatur dolore accusamus quos.
-                Quos?
+                Web App realizzata con VueJs. Riproduzione di un sito web
+                formato desktop. Il sito è strutturato attraverso l'uso dei
+                componenti e quindi facilmente adattabile ad ogni esigenza del
+                cliente. Lo stile è stato supportato dall'utilizzo del framework
+                Bootstrap.
               </p>
             </div>
             <div className="single-project">
               <p>
                 <h2>
-                  <a href="https://github.com/MLibralato91/htmlcss-dropbox">
+                  <a href="https://dropbox-web-html-css.netlify.app/">
                     dropbox
                   </a>
                 </h2>
@@ -56,9 +57,7 @@ const Projects = () => {
             <div className="single-project">
               <p>
                 <h2>
-                  <a href="https://github.com/MLibralato91/vite-comics">
-                    dc-comics
-                  </a>
+                  <a href="https://vite-dc-comics.netlify.app/">dc-comics</a>
                 </h2>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
                 quos, non minus tenetur impedit perspiciatis reprehenderit?
@@ -69,9 +68,7 @@ const Projects = () => {
             <div className="single-project">
               <p>
                 <h2>
-                  <a href="https://github.com/MLibralato91/htmlcss-discord">
-                    discord
-                  </a>
+                  <a href="https://discord-html-css.netlify.app/">discord</a>
                 </h2>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
                 quos, non minus tenetur impedit perspiciatis reprehenderit?
@@ -82,7 +79,7 @@ const Projects = () => {
             <div className="single-project">
               <p>
                 <h2>
-                  <a href="https://github.com/MLibralato91/html-css-spotifyweb">
+                  <a href="https://spotify-desktop-html-css.netlify.app/">
                     spotify web
                   </a>
                 </h2>
@@ -95,7 +92,7 @@ const Projects = () => {
             <div className="single-project">
               <p>
                 <h2>
-                  <a href="https://github.com/MLibralato91/vue-boolzapp">
+                  <a href="https://whatsapp-web-js.netlify.app/">
                     whatsapp web
                   </a>
                 </h2>
