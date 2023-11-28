@@ -7,6 +7,12 @@
     height: 300px;
     overflow-y: scroll;
     border-bottom: 1px solid $primary-color;
+
+    .single-project {
+      p {
+        animation: none;
+      }
+    }
   }
   ::-webkit-scrollbar {
     width: 0px;

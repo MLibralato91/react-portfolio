@@ -50,7 +50,7 @@ const Contact = () => {
           <p>
             Mi piace mettermi in gioco e imparare cose nuove, continuamente.
             Sono sempre alla ricerca di nuove esperienze e persone. Se le mie
-            capacità e la mia personalità compaciano con ciò che cercate potete
+            capacità e la mia personalità combaciano con ciò che cerchi puoi
             contattarmi senza problemi.
           </p>
           <div className="contact-form">

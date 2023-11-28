@@ -112,6 +112,21 @@
       font-family: sans-serif;
       font-weight: 300;
       min-width: fit-content;
+    }
+  }
+
+  .text-animate-hover {
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+//Pulse animation
+.about-page,
+.contact-page {
+  .text-zone {
+    p {
       animation: pulse 1s;
 
       &:nth-of-type(1) {

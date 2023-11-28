@@ -34,7 +34,7 @@ const Projects = () => {
                     business web-site
                   </a>
                 </h2>
-                Web App realizzata con VueJs. Riproduzione di un sito web
+                Single-Page realizzata con VueJs. Riproduzione di un sito web
                 formato desktop. Il sito è strutturato attraverso l'uso dei
                 componenti e quindi facilmente adattabile ad ogni esigenza del
                 cliente. Lo stile è stato supportato dall'utilizzo del framework
@@ -48,10 +48,8 @@ const Projects = () => {
                     dropbox
                   </a>
                 </h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-                quos, non minus tenetur impedit perspiciatis reprehenderit?
-                Alias incidunt dolor eveniet, consequatur dolore accusamus quos.
-                Quos?
+                Single-Page realizzata in HTML e CSS. Riproduzione della pagina
+                principale del sito web Dropbox formato desktop.
               </p>
             </div>
             <div className="single-project">
@@ -59,10 +57,9 @@ const Projects = () => {
                 <h2>
                   <a href="https://vite-dc-comics.netlify.app/">dc-comics</a>
                 </h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-                quos, non minus tenetur impedit perspiciatis reprehenderit?
-                Alias incidunt dolor eveniet, consequatur dolore accusamus quos.
-                Quos?
+                Single-Page realizata con VueJs. Riproduzione del sito web della
+                Dc-Comics formato desktop. Il sito è strutturato utilizzando
+                componenti che recuperano i dati da un file data.js
               </p>
             </div>
             <div className="single-project">
@@ -70,10 +67,8 @@ const Projects = () => {
                 <h2>
                   <a href="https://discord-html-css.netlify.app/">discord</a>
                 </h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-                quos, non minus tenetur impedit perspiciatis reprehenderit?
-                Alias incidunt dolor eveniet, consequatur dolore accusamus quos.
-                Quos?
+                Single-Page realizzata con HTML e CSS. Riproduzione del sito web
+                discord formato desktop.
               </p>
             </div>
             <div className="single-project">
@@ -83,10 +78,8 @@ const Projects = () => {
                     spotify web
                   </a>
                 </h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-                quos, non minus tenetur impedit perspiciatis reprehenderit?
-                Alias incidunt dolor eveniet, consequatur dolore accusamus quos.
-                Quos?
+                Single-Page realizzata con HTML e CSS. Riproduzione di
+                spotify-web formato desktop.
               </p>
             </div>
             <div className="single-project">
@@ -96,10 +89,9 @@ const Projects = () => {
                     whatsapp web
                   </a>
                 </h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-                quos, non minus tenetur impedit perspiciatis reprehenderit?
-                Alias incidunt dolor eveniet, consequatur dolore accusamus quos.
-                Quos?
+                Web-App realizzata con HTML, CSS e Js. Riproduzione di
+                whatsapp-web formato desktop. Il sito è strutturato attraverso i
+                componenti di Vuejs.
               </p>
             </div>
           </div>
