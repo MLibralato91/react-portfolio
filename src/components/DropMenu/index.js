@@ -54,7 +54,7 @@ const DropMenu = () => {
               to="/about"
               onClick={closeMenu}
             >
-              About
+              About Me
             </NavLink>
           </li>
           <li>
