@@ -37,20 +37,21 @@ const About = () => {
           </h1>
 
           <p>
-            Sono un ragazzo appassionato di informatica che ha intrapreso un
-            percorso per diventare sviluppatore web
+            "Non smettere mai di imparare". Penso che per crescere non bisogna
+            mai fermarsi ed è il motivo per cui a 32 anni ho deciso di diventare
+            uno sviluppatore web.
           </p>
           <p>
-            Ho imparato linguaggi di programmazione sia lato front-end che lato
-            back-end. Ho studiato Js e VueJs mentre lato BE ho studiato PHP con
-            Laravel. Per sperimentare qualcosa di nuovo ho creato questo
-            portfolio utilizzando React.
+            A gennaio 2023 ho iniziato a studiare HTML, CSS e Js. Superato lo
+            scoglio più grande ho iniziato ad applicare i primi framework come
+            Bootstrap e VueJs. Nella seconda parte dei miei studi ho imparato ad
+            usare PHP con il supporto di uno dei suoi framework, Laravel.
           </p>
           <p>
-            Mi piace viaggiare e mi piace passare il tempo libero in mezzo alla
-            natura. Mi piace ogni tipo di sport e quando posso lo pratico. Mi
-            ritengo abile in cucina e mi appassiona tutto ciò che può arricchire
-            le mie conoscenze, pratiche e mentali.
+            Sono una persona semplice e umile, per staccare la spina passo il
+            tempo libero in mezzo alla natura oppure praticando qualsiasi sport
+            in compagnia. Mi piace cucinare e mi diletto nel fai da te. Amo
+            imparare cose nuove e dove posso, insegnarle.
           </p>
         </div>
 

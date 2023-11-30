@@ -48,10 +48,10 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Mi piace mettermi in gioco e imparare cose nuove, continuamente.
-            Sono sempre alla ricerca di nuove esperienze e persone. Se le mie
-            capacità e la mia personalità combaciano con ciò che cerchi puoi
-            contattarmi senza problemi.
+            Mi piace mettermi in gioco e sentirmi parte di progetto, piccolo o
+            grande che sia. Sono sempre alla ricerca di nuove esperienze e
+            persone. Se le mie capacità e la mia personalità combaciano con ciò
+            che cerchi puoi contattarmi senza problemi.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
