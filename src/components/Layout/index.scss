@@ -162,13 +162,6 @@
     width: 90%;
   }
 
-  .tags {
-    left: 85px;
-    display: block;
-  }
-  .top-tags {
-    display: block;
-  }
   .about-page,
   .contact-page,
   .projects-page {
@@ -180,6 +173,13 @@
 }
 
 @media (min-width: 992px) {
+  .tags {
+    left: 85px;
+    display: block;
+  }
+  .top-tags {
+    display: block;
+  }
   .about-page,
   .contact-page,
   .projects-page {

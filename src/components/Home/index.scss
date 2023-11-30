@@ -3,7 +3,7 @@
 .home-page {
   .text-zone {
     position: absolute;
-    left: 10%;
+    left: 0;
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
@@ -81,6 +81,14 @@
   .myRole {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-page {
+    .text-zone {
+      left: 10%;
+    }
   }
 }
 
